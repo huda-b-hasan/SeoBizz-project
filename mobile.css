@@ -1,0 +1,90 @@
+/* MOBILE SIZE  */
+@media ((min-width:566px) and (max-width:767px)){
+    header .main-section div.flex {
+        flex-direction: column;
+        gap: 110px;
+        align-items: start;
+    }
+    header .main-section div.flex img{
+        width: 500px;
+    }
+    header .main-section div.flex .title h2{
+        padding-top: 60px
+    }
+    /* SEARCH  */
+    .search-engine .search{
+        flex-direction: column;
+    }
+    .search-engine .search div img{
+        width: 480px;
+    }
+    /*// SEARCH  //*/
+    /* PRICING PLANS  */
+    .pricing .plans {
+        flex-direction: column;
+    }
+    /*// PRICING PLANS // */
+        /* TEST SECTION  */
+    .test-section .container{
+        overflow: visible;
+    }
+    .test-section .container > div{
+        flex-direction: column;
+        overflow: visible;
+        width: 100%;
+        height: auto;
+        align-items: center;
+        transition: none;
+    }
+    .test-section ul{
+        display: none;
+    }
+    /* // TEST SECTION // */    
+    /* nav bar */
+        .container{
+        width: 80%;
+    }
+    header nav .container > div:nth-child(2){
+        display: none;
+        background-color: rgba(83, 98, 152, 0.795);
+        position: absolute;
+        flex-direction: column;
+        top: 85px;
+        left: 150px;
+        width: 70%;
+    }
+    header nav .container > div:nth-child(2) ul{
+        flex-direction: column;
+    }
+    header nav .container > div:nth-child(2) ul li a{
+        display: block;
+        margin-block: 15px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    header nav .container > div:nth-child(2)  button{
+        display: block;
+        margin-inline: auto;
+        margin-bottom: 20px;
+    }
+    header nav div:nth-child(3){
+        display: inline-block;
+        width: 40px;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 10px 5px;
+    }
+    header nav div:nth-child(3) hr:not(:last-child){
+        margin-bottom: 5px;
+    }
+    /* SERVISES */
+    .services .container > div{
+        flex-direction: column;
+    }
+    .services .container > div .service{
+        width: 80%;
+    }
+    /* //SERVISES// */
+    /*// nav bar //*/
+}
+/*// MOBILE SIZE // */

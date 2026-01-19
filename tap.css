@@ -1,0 +1,5 @@
+@media (min-width:992px) and (max-width:1198px){
+    .services .container > div .service{
+    width: calc((100% / 2) - 60px);
+    }
+}
