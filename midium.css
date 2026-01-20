@@ -1,5 +1,19 @@
 /* MEDIUM SIZE  */
 @media ( max-width:991px){
+    header .main-section div.flex {
+        flex-direction: column;
+        gap: 110px;
+        align-items: start;
+    }
+    header .main-section div.flex img{
+        width: 500px;
+    }
+    header .main-section div.flex .title h2{
+        padding-top: 60px
+    }
+    header .main-section .flex .image{
+    width:100%
+    }
     .search-engine .search{
         flex-direction: column;
     }

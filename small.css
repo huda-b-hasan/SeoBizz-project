@@ -6,6 +6,9 @@
     header .main-section div.flex img{
         display: none;
     }
+     header .main-section .flex .image{
+        width:100%
+    }
         /* SEARCH  */
     .search-engine .search{
         flex-direction: column;

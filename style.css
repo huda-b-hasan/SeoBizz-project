@@ -55,7 +55,27 @@ p{
     margin-left: 5px;
 }
 /* // MODELING // */
+/* BUTTON TO START  */
+.to-start{
+    background-color: var(--main-color);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 18px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    box-shadow: 0px 0px 10px -2px black;
+}
+.to-start a{
+    transition: 1s;
 
+}
+/*// BUTTON TO START // */
 /* start header  */
 header{
     background-color:var(--main-color);
@@ -126,7 +146,17 @@ header .main-section .container > div{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    flex-wrap: wrap;
+    
+}
+header .main-section .title {
+    width:40%
+}
+header .main-section .flex .image{
+    width:45%
+}
+header .main-section .flex .image img{
+    width: 100%;
 }
 header .main-section .title h2{
     position: relative;
