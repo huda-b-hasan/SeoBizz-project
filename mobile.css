@@ -1,5 +1,19 @@
 /* MOBILE SIZE  */
 @media ((min-width:566px) and (max-width:767px)){
+    footer .container div > div:not(.icon){
+        align-items: center;
+    }
+    /* form */
+    .contact .form > div{
+        flex-direction: column;
+    }
+    .contact .form > div input{
+        width: 100%;
+    }
+    .contact .form > div input:not(:last-child){
+        margin-bottom: 10px;
+    }
+    /*// form // */
     header .main-section div.flex {
         flex-direction: column;
         gap: 110px;

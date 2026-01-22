@@ -1,13 +1,34 @@
 /* SMALL SIZE  */
 @media(max-width:565px){
+    
+    footer .container div > div:not(.icon){
+        align-items: center;
+    }
+    /* form */
+    .contact .form > div{
+        flex-direction: column;
+    }
+    .contact .form > div input{
+        width: 100%;
+    }
+    .contact .form > div input:not(:last-child){
+        margin-bottom: 10px;
+    }
+    /*// form // */
     header .main-section {
         padding-block:160px ;
     }
     header .main-section div.flex img{
         display: none;
     }
-     header .main-section .flex .image{
+    header .main-section .flex .image{
         width:100%
+    }
+    header .main-section .title h2{
+        font-size:30px
+    }
+    header .main-section .title h2::after{
+        bottom: -67px;
     }
         /* SEARCH  */
     .search-engine .search{
@@ -90,3 +111,110 @@
 }
 /*// SMALL SIZE // */
 
+@keyframes change {
+    0%{
+        left: 0;
+    }
+    20%{
+        
+        left:325px;
+    }
+    23%{
+        
+        left:  0;
+    }
+    24%{
+        
+        left: 0;
+    }
+    44%{
+        
+        left: 320px;
+    }
+    47%{
+        
+        left: 0;
+    }
+    48%{
+       
+        left: 0;
+    }
+    69%{
+       
+        left: 270px;
+    }
+    70%{
+        
+        left: 0;
+    }
+    71%{
+       
+        left: 0;
+    }
+    91%{
+       
+        left: 250px;
+    }
+    93%{
+       
+        left: 0;
+    }
+    100%{
+        
+        left: 0;
+    }
+}
+@keyframes text-change {
+    0%{
+        content: "happy to see you";
+        width: 0;
+    }
+    20%{
+        content: "happy to see you";
+        width:325px;
+    }
+    23%{
+        content: "happy to see you";
+        width: 0;
+    }
+    24%{
+        content: "best seo agency"; 
+        width: 0;
+    }
+    44%{
+        content: "best seo agency"; 
+        width: 320px;
+    }
+    47%{
+        content: "best seo agency"; 
+        width: 0;
+    }
+    48%{
+        content: "always on top";
+        width: 0;
+    }
+    69%{
+        content: "always on top";
+        width: 275px;
+    }
+    70%{
+        content: "always on top";
+        width: 0;
+    }
+    71%{
+        content: "a great team";
+        width: 0;
+    }
+    91%{
+        content: "a great team";
+        width: 255px;
+    }
+    93%{
+        content: "a great team";
+        width: 0;
+    }
+    100%{
+        content: "";
+        width: 0;
+    }
+}

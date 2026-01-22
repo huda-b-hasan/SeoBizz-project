@@ -8,6 +8,9 @@
     --main-color: rgb(99, 132, 255);
     --bold-color: rgba(83, 98, 152, 0.89)
 }
+html {
+  scroll-behavior: smooth;
+}
 ul{
     list-style: none;
 }
